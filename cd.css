@@ -1,5 +1,5 @@
 header.titulo {
-    background-color: rgb(181, 212, 238);
+    background-color: rgb(243, 189, 126);
     text-align: center;
     margin: 0;
     padding: 1px;
@@ -40,5 +40,5 @@ div.linea3 {
     width: 100%;
 }
 body{
-    background-color: rgb(250, 237, 221);
+    background-color: rgb(221, 249, 250);
 }
