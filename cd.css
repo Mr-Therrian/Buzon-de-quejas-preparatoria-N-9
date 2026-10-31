@@ -43,8 +43,8 @@ body{
     background-color: rgb(255, 251, 236);
 }
 div.boton{
-            padding: 10px 15px;
-            background-color: #4CAF50;
+            padding: 10px 5px;
+            background-color: #74bd77;
             color: white;
             border: none;
             cursor: pointer;
