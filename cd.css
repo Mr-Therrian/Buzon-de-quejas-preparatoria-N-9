@@ -42,3 +42,13 @@ div.linea3 {
 body{
     background-color: rgb(255, 251, 236);
 }
+boton
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
