@@ -42,24 +42,9 @@ div.linea3 {
 body{
     background-color: rgb(255, 251, 236);
 }
-div.botonbody {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        fieldset {
-            margin-bottom: 20px;
-            padding: 10px;
-        }
-        legend {
-            font-weight: bold;
-        }
-        label {
-            display: block;
-            margin: 5px 0;
-        }
-        button {
-            padding: 10px 15px;
-            background-color: #4CAF50;
+div.boton{
+            padding: 10px 5px;
+            background-color: #74bd77;
             color: white;
             border: none;
             cursor: pointer;

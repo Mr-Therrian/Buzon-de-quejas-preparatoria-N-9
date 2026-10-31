@@ -39,9 +39,10 @@ div.linea3 {
 body{
     background-color: rgb(255, 251, 236);
 }
-button {
-            padding: 10px 15px;
-            background-color: #4CAF50;
+
+div.boton2{
+     padding: 10px 5px;
+            background-color: #74bd77;
             color: white;
             border: none;
             cursor: pointer;
