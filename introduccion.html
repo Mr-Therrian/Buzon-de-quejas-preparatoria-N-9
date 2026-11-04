@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>¿Cuál fue tu experiencia?</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="cd.css">
 </head>
 <body>
     <header class="titulo">
         <div class="titulo">
-            <h1>¿Cual fue tu experiencia?</h1>
+            <h1>¿Cuál fue tu experiencia?</h1>
         </div>
     </header>
     <hr>
@@ -18,76 +21,78 @@
     <div class="linea2"></div>
     <div class="lineain2"></div>
     <div class="linea3"></div>
+
     <header class="Datos">
         <nav>
-            <a href="index.html">Introduccion</a>
+            <a href="index.html">Introducción</a>
             <a href="Detalles.html">Registro</a>
             <a href="introduccion.html">Detalles</a>
         </nav>
     </header>
+
     <main>
 
-    </main>
-        <footer>
-                <p>
-                    Buzon de quejas Preparatoria N.9 </p>
-                <p>
-                    Edith Andrea Guzman Zepeda </p>
-        </footer>
-        <br>
-        <br>
-        <h3>Ahora que sabemos cosas sobre ti, cuentanos tu experiencia</h3>
-        <br>
-        <h3>1. ¿Que quuieres contarnos?</h3>
-        <label><input type="text"></label>
-        <br>
-        <br>
-        <br>
-         <h3>2. ¿Cuando te sucedio esto?</h3>
-         <label><input type="date"></label>
-         <br>
-         <label><input type="radio">No recuerdo cuando sucedio</label>
-         <br>
-         <br>
-         <br>
-         <h3>3. ¿Cual consideras que fue el principal problema por lo que sucedio esto?</h3>
-         <label><input type="text"></label>
-         <br>
-         <br>
-         <br>
-         <h3>4. ¿Que hiciste al respecto?</h3>
-         <label><input type="text"></label>
-         <br>
-         <br>
-         <br>
-         <h3>5. ¿Hubo mas personas involucradas?</h3>
-         <label><input type="text"></label>
-         <br>
-         <br>
-         <br>
-         <h3>6. ¿Que le pedirias a la prepa para resolver este conflicto</h3>
-         <label><input type="text"></label>
-         <br>
-         <br>
-         <br>
-         <h3>7. ¿Despues de contarnos esto como te sientes?</h3>
-         <label><input type="text"></label>
-         <br>
-         <br>
-         <br>
-         <h2>Gracias por contestar nuestras preguntas y por visitar nuestras paginas, espero que esto fuera de tu agrado y que puedas seguir recomendandonos a mas personas para escucharlas tambien,</h2>
-         <h2>
+        <h2>Ahora que sabemos cosas sobre ti, cuéntanos tu experiencia</h2>
+
+            <h2>1. ¿Qué quieres contarnos?</h2>
+            <p>Escribe tu experiencia</p>
+            <label for="experiencia">Tu experiencia:</label>
+            <input type="text" name="experiencia" placeholder="Escribe aquí..." required>
+
+            <h2>2. ¿Cuándo te sucedió esto?</h2>
+            <p>Elige la fecha o marca que no la recuerdas.</p>
+            <label for="fecha">Fecha:</label>
+            <input type="date" name="fecha">
+            <label>
+                <input type="radio" name="cuando" value="norecuerdo">
+                No recuerdo cuándo sucedió
+            </label>
+
+            <h2>3. ¿Cuál consideras que fue el principal problema por lo que sucedió esto?</h2>
+            <p>Cuéntanos qué crees que lo provocó.</p>
+            <label for="problema">Principal problema:</label>
+            <input type="text" name="problema" placeholder="Escribe aquí...">
+
+            <h2>4. ¿Qué hiciste al respecto?</h2>
+            <p>Describe cómo actuaste en ese momento.</p>
+            <label for="quehiciste">Lo que hiciste:</label>
+            <input type="text" name="quehiciste" placeholder="Escribe aquí...">
+
+            <h2>5. ¿Hubo más personas involucradas?</h2>
+            <p>Menciona a quiénes estuvieron presentes.</p>
+            <label for="involucrados">Personas involucradas:</label>
+            <input type="text" name="involucrados" placeholder="Escribe aquí...">
+
+            <h2>6. ¿Qué le pedirías a la prepa para resolver este conflicto?</h2>
+            <p>Escribe que quisieras pedir.</p>
+            <label for="pedir">Tu petición:</label>
+            <input type="text" name="pedir" placeholder="Escribe aquí...">
+
+            <h2>7. ¿Después de contarnos esto cómo te sientes?</h2>
+            <p>Comparte cómo te sientes ahora.</p>
+            <label for="sentir">Cómo te sientes:</label>
+            <input type="text" name="sentir" placeholder="Escribe aquí...">
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h2>Gracias por contestar nuestras preguntas y por visitar nuestras páginas, espero que esto fuera de tu agrado y que puedas seguir recomendándonos a más personas para escucharlas también.</h2>
+        <h2>
             <strong>
                 Nos vemos luego.
             </strong>
-         </h2>
-         <br>
-         <br>
-         <button type="submit">Enviar</button>
-         <h2>
-          <div class="boton">
-         <a href="index.html" >Salir</a>
-         </div>
-         </h2>
-         </body>
-         </html>
+        </h2>
+
+        <div class="boton">
+            <a href="index.html">Salir</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Buzón de quejas Preparatoria N.9</p>
+        <p>Edith Andrea Guzmán Zepeda</p>
+    </footer>
+
+</body>
+</html>

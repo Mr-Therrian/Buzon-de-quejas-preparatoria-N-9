@@ -3,110 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cuéntanos más sobre ti</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="cd.css">
+
 </head>
 <body>
+
     <header class="titulo">
         <div class="titulo">
-            <h1>Cuentanos mas sobre ti</h1>
+            <h1>Cuéntanos más sobre ti</h1>
         </div>
     </header>
+
     <hr>
+
     <div class="linea1"></div>
     <div class="lineain1"></div>
     <div class="linea2"></div>
     <div class="lineain2"></div>
     <div class="linea3"></div>
+
     <header class="Datos">
         <nav>
-            <a href="index.html">Introduccion</a>
+            <a href="index.html">Introducción</a>
             <a href="Detalles.html">Registro</a>
             <a href="introduccion.html">Detalles</a>
         </nav>
     </header>
+    <footer>
+        <p>Buzón de quejas Preparatoria N.9</p>
+        <p>Edith Andrea Guzmán Zepeda</p>
+    </footer>
+
+
     <main>
 
-    </main>
-        <footer>
-                <p>
-                    Buzon de quejas Preparatoria N.9 </p>
-                <p>
-                    Edith Andrea Guzman Zepeda </p>
-        </footer>
-        <br>
-        <br>
-        <h3>En esta pagina nos interesa conocerte pero tambien proteger tu identidad, ayudanos a responder las siguientes preguntas.</h3>
-        <br>
-        <h3>1. ¿Cual es su email?</h3>
-        <label><input type="email"></label>
-        </select>
-        <br>
-        <br>
-        <br>
-         <h3>2. ¿Cual es tu edad?</h3>
-         <label><select name="edad" required>
-            <option name="edad" value=""></option>
-            <option name="edad" value="">10-15 años</option>
-            <option name="edad" value="">15-20 años</option>
-            <option name="edad" value="">20-25 años</option>
-            <option name="edad" value="">25-30 años</option>
-            <option name="edad" value="">Mas de 30</option>
-        </select></label>
-        <br>
-        <br>
-        <br>
-        <h3>3. ¿Quien eres?</h3>
-        <label><select name="nombre" required>
-            <option name="nombre" value=""></option>
-            <option name="nombre"value="">Raton Quesoso</option>
-            <option name="nombre"value="">Mapache Travieso</option>
-            <option name="nombre"value="">Oso Apestoso</option>
-            <option name="nombre"value="">Cocodrilo Loki</option>
-            <option name="nombre"value="">Cucaracha Aplastada</option>
-            <option name="nombre"value="">Nahual Enojado</option>
-            <option name="nombre"value="">Panda Panzon</option>
-            <option name="nombre"value="">Paollito Pepe</option>
-            <option name="nombre"value="">Cabipara Dormilon</option>
-        </select></label>
-        <br>
-        <br>
-        <br>
-        <h3>4. ¿Como supiste de esta pagina?</h3>
-        <label><input type="radio"  >Por compaeñeros
-        <br>
-        <input type="radio"  >Por un video
-        <br>
-        <input type="radio"  >Por que la escuche
-        <br>
-        <input type="radio"  >La encontre en GitHub
-        </select></label>
-        <br>
-        <br>
-        <br>
-        <h3>5. ¿Eres estudiante de esta prepa?</h3>
-        <label><input type="radio" >Si
-        <br>
-        <input type="radio" >No
-        <br>
-        <input type="radio" >Lo era
-        </select></label>
-        <br>
-        <br>
-        <br>
-        <h3>6. ¿Cuales fueron tus principales motivos por los que entreste a esta pagina?</h3>
-        <label><input type="checkbox" > Me dio curiosidad
-        <br>
-        <input type="checkbox" > Quiero dar mi opinion
-        <br>
-        <input type="checkbox" >Me la recomendaron
-        </select></label>
-        <br>
-        <br>
-        <br>
-        <button type="submit">Enviar</button>
-        <h1>
+        <h2>En esta página nos interesa conocerte pero también proteger tu identidad</h2>
+        <p>Ayúdanos a responder las siguientes preguntas.</p>
+
+            <h2>1. ¿Cuál es su email?</h2>
+            <p>Escribe un correo para contactarte.</p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="alumnadop9ejemplo.com" required>
+
+            <h2>2. ¿Cuál es tu edad?</h2>
+            <label for="edad">Edad:</label>
+            <select name="edad" required>
+                <option value="">-- Selecciona una opción --</option>
+                <option value="10-15">10-15 años</option>
+                <option value="15-20">15-20 años</option>
+                <option value="20-25">20-25 años</option>
+                <option value="25-30">25-30 años</option>
+                <option value="mas-30">Más de 30</option>
+            </select>
+
+            <h2>3. ¿Quién eres?</h2>
+            <p>Elige el apodo con el que quieres aparecer.</p>
+            <label for="nombre">Nombre:</label>
+            <select name="nombre" required>
+                <option value="">-- Selecciona tu apodo --</option>
+                <option value="raton">Ratón Quesoso</option>
+                <option value="mapache">Mapache Travieso</option>
+                <option value="oso">Oso Apestoso</option>
+                <option value="cocodrilo">Cocodrilo Loki</option>
+                <option value="cucaracha">Cucaracha Aplastada</option>
+                <option value="nahual">Nahual Enojado</option>
+                <option value="panda">Panda Panzón</option>
+                <option value="pollito">Paollito Pepe</option>
+                <option value="cabipara">Cabipara Dormilón</option>
+            </select>
+
+            <h2>4. ¿Cómo supiste de esta página?</h2>
+            <p>Elige una opcion</p>
+            <label>
+                <input type="radio" name="comosupo" value="companeros" required>
+                Por compañeros
+            </label>
+            <label>
+                <input type="radio" name="comosupo" value="video">
+                Por un video
+            </label>
+            <label>
+                <input type="radio" name="comosupo" value="la-escuche">
+                Porque la escuché
+            </label>
+            <label>
+                <input type="radio" name="comosupo" value="github">
+                La encontré en GitHub
+            </label>
+
+            <h2>5. ¿Eres estudiante de esta prepa?</h2>
+            <p>Elige una opcion</p>
+            <label>
+                <input type="radio" name="estudiante" value="si" required>
+                Sí
+            </label>
+            <label>
+                <input type="radio" name="estudiante" value="no">
+                No
+            </label>
+            <label>
+                <input type="radio" name="estudiante" value="lo-era">
+                Lo era
+            </label>
+
+            <h2>6. ¿Cuáles fueron tus principales motivos para entrar a esta página?</h2>
+            <p>puedes elegir varias opciones.</p>
+            <label>
+                <input type="checkbox" name="motivos" value="curiosidad">
+                Me dio curiosidad
+            </label>
+            <label>
+                <input type="checkbox" name="motivos" value="opinion">
+                Quiero dar mi opinión
+            </label>
+            <label>
+                <input type="checkbox" name="motivos" value="recomendacion">
+                Me la recomendaron
+            </label>
+
+            <button type="submit">Enviar</button>
+        </form>
+
         <div class="boton">
-        <a href="introduccion.html">Siguiente pagina</a>
+            <a href="introduccion.html">Siguiente página</a>
         </div>
-        </h1>
+
+    </main>
+
+    
+</body>
+</html>

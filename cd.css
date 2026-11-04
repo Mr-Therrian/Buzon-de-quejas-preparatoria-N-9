@@ -48,3 +48,7 @@ div.boton{
             color: white;
             border: none;
 }
+main,
+footer {
+    font-family: 'Poppins', sans-serif;
+}
