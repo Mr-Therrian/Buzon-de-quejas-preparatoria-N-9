@@ -47,10 +47,4 @@ div.boton{
             background-color: #74bd77;
             color: white;
             border: none;
-        }
-div.enviar{
-    display: block;
-    height: 8px;
-    background-color: rgb(10, 29, 110);
-    width: 100%
 }
