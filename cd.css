@@ -49,8 +49,8 @@ div.boton{
             border: none;
         }
 div.enviar{
-    padding: 50px 25px;
-            background-color: #74bd77;
-            color: rgb(97, 17, 17);
-            border: none;
+    display: block;
+    height: 8px;
+    background-color: rgb(10, 29, 110);
+    width: 100%
 }
