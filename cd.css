@@ -48,7 +48,7 @@ div.boton{
             color: white;
             border: none;
         }
-button{
+button.enviar{
     display: block;
     height: 10px;
     background-color: #acd4f8;
