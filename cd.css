@@ -48,9 +48,9 @@ div.boton{
             color: white;
             border: none;
         }
-div.enviar{
+button.enviar{
     display: block;
-    height: 10px;
-    background-color: #acd4f8;
-    width: 10%;
+    height: 8px;
+    background-color: rgb(10, 29, 110);
+    width: 100%;
 }
